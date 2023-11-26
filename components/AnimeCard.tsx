@@ -1,7 +1,10 @@
+// Importing necessary dependencies and components
 import Image from "next/image";
 import { Variants } from "framer-motion";
-import { MotionDiv } from "./MotionDiv";
 
+import { MotionDiv } from "@/components/MotionDiv";
+
+// Defining the structure of an anime object
 export interface AnimeProp {
   id: string;
   name: string;
@@ -14,11 +17,13 @@ export interface AnimeProp {
   score: string;
 }
 
+// Defining the structure of the component props
 interface Prop {
   anime: AnimeProp;
   index: number;
 }
 
+// Framer Motion variants for animation
 const variants: Variants = {
   hidden: {
     opacity: 0,
@@ -28,8 +33,10 @@ const variants: Variants = {
   },
 };
 
+// Functional component representing an anime card
 function AnimeCard({ anime, index }: Prop) {
   return (
+    // Wrapping the component in a motion-div for animation
     <MotionDiv
       variants={variants}
       initial="hidden"
@@ -42,7 +49,9 @@ function AnimeCard({ anime, index }: Prop) {
       viewport={{ amount: 0 }}
       className="max-w-sm rounded relative w-full"
     >
+      {/* Container for the anime image */}
       <div className="relative w-full h-[37vh]">
+        {/* Next.js Image component for optimized image loading */}
         <Image
           src={`https://shikimori.one/${anime.image.original}`}
           alt={anime.name}
@@ -50,7 +59,9 @@ function AnimeCard({ anime, index }: Prop) {
           className="rounded-xl"
         />
       </div>
+      {/* Container for the anime information */}
       <div className="py-4 flex flex-col gap-3">
+        {/* Header section with anime name and kind */}
         <div className="flex justify-between items-center gap-1">
           <h2 className="font-bold text-white text-xl line-clamp-1 w-full">
             {anime.name}
@@ -61,7 +72,9 @@ function AnimeCard({ anime, index }: Prop) {
             </p>
           </div>
         </div>
+        {/* Details section with episode count and score */}
         <div className="flex gap-4 items-center">
+          {/* Container for episodes information */}
           <div className="flex flex-row gap-2 items-center">
             <Image
               src="./episodes.svg"
@@ -74,6 +87,7 @@ function AnimeCard({ anime, index }: Prop) {
               {anime.episodes || anime.episodes_aired}
             </p>
           </div>
+          {/* Container for score information */}
           <div className="flex flex-row gap-2 items-center">
             <Image
               src="./star.svg"
@@ -90,4 +104,5 @@ function AnimeCard({ anime, index }: Prop) {
   );
 }
 
+// Exporting the AnimeCard component as the default export
 export default AnimeCard;

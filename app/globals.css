@@ -1,11 +1,33 @@
+/* 
+  Tailwind CSS Base
+  - Includes base styles provided by Tailwind CSS.
+*/
 @tailwind base;
+
+/* 
+  Tailwind CSS Components
+  - Includes component styles provided by Tailwind CSS.
+*/
 @tailwind components;
+
+/* 
+  Tailwind CSS Utilities
+  - Includes utility styles provided by Tailwind CSS.
+*/
 @tailwind utilities;
 
+/* 
+  Custom Body Styles
+  - Set background color for the entire body.
+*/
 body {
   background-color: #000;
 }
 
+/* 
+  Red Gradient Text
+  - Apply a red gradient effect to text.
+*/
 .red-gradient {
   background: linear-gradient(92deg, #ff5956 2.87%, #ee1e38 96.18%);
   background-clip: text;
@@ -13,6 +35,18 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+/* 
+  Dark Mode Color Scheme
+  - Set color scheme preference to dark mode.
+*/
 :root {
   color-scheme: dark;
 }
+
+/* 
+  Additional Comments:
+  - This file combines Tailwind CSS styles with custom styles.
+  - Tailwind CSS classes are used for rapid styling.
+  - Custom styles are added for specific design requirements.
+  - Keep the file organized and maintain a clear structure.
+*/

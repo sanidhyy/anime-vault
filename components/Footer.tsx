@@ -1,9 +1,16 @@
+// Importing necessary dependencies
 import Image from "next/image";
 
+// Functional component representing the footer of the application
 function Footer() {
   return (
+    // Footer container with styling
     <footer className="sm:px-16 py-4 px-8 flex justify-between items-center gap-2 flex-wrap bg-[#161921]">
-      <p className="text-base font-bold text-white">@2023 EpicAnimeVault</p>
+      {/* Copyright information */}
+      <p className="text-base font-bold text-white">
+        &copy; {new Date().getFullYear()} Anime Vault
+      </p>
+      {/* Logo image */}
       <Image
         src="./logo.svg"
         alt="logo"
@@ -11,7 +18,9 @@ function Footer() {
         height={44}
         className="object-contain"
       />
+      {/* Social media icons */}
       <div className="flex items-center gap-6">
+        {/* TikTok icon */}
         <Image
           src="./tiktok.svg"
           alt="logo"
@@ -19,6 +28,7 @@ function Footer() {
           height={19}
           className="object-contain"
         />
+        {/* Instagram icon */}
         <Image
           src="./instagram.svg"
           alt="logo"
@@ -26,6 +36,7 @@ function Footer() {
           height={19}
           className="object-contain"
         />
+        {/* Twitter icon */}
         <Image
           src="./twitter.svg"
           alt="logo"
@@ -38,4 +49,5 @@ function Footer() {
   );
 }
 
+// Exporting the Footer component as the default export
 export default Footer;
