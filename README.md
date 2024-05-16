@@ -9,7 +9,7 @@
 [![Maintenance](https://flat.badgen.net/static/Maintained/yes?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/anime-vault/commits/main "Maintenance")
 [![GitHub branches](https://flat.badgen.net/github/branches/sanidhyy/anime-vault?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/anime-vault/branches "GitHub branches")
 [![Github commits](https://flat.badgen.net/github/commits/sanidhyy/anime-vault?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/anime-vault/commits "Github commits")
-[![Vercel status](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://animee-vault.vercel.app/ "Vercel status")
+[![Netlify status](https://api.netlify.com/api/v1/badges/98200064-601d-4ca4-98ab-675eb592139a/deploy-status)](https://animee-vault.netlify.app/ "Netlify status")
 [![GitHub issues](https://flat.badgen.net/github/issues/sanidhyy/anime-vault?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/anime-vault/issues "GitHub issues")
 [![GitHub pull requests](https://flat.badgen.net/github/prs/sanidhyy/anime-vault?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/anime-vault/pulls "GitHub pull requests")
 
