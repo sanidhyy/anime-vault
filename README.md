@@ -42,10 +42,8 @@
 Here is the folder structure of Anime Vault.
 
 <!--- FOLDER_STRUCTURE_START --->
-
 ```bash
 anime-vault/
-  |- public/
   |- app/
     |-- action.tsx
     |-- favicon.ico
@@ -53,6 +51,15 @@ anime-vault/
     |-- layout.tsx
     |-- page.tsx
   |- components/
+    |-- AnimeCard.tsx
+    |-- Footer.tsx
+    |-- Hero.tsx
+    |-- LoadMore.tsx
+    |-- MotionDiv.tsx
+  |- public/
+  |- .gitignore
+  |- .prettierignore
+  |- netlify.toml
   |- next.config.js
   |- package-lock.json
   |- package.json
@@ -60,7 +67,6 @@ anime-vault/
   |- tailwind.config.ts
   |- tsconfig.json
 ```
-
 <!--- FOLDER_STRUCTURE_END --->
 
 <br />
@@ -106,10 +112,21 @@ You might encounter some bugs while using this app. You are more than welcome to
 Useful resources and libraries that are used in Anime Vault
 
 <!--- DEPENDENCIES_START --->
+- [@types/node](https://www.npmjs.com/package/@types/node): ^20
+- [@types/react](https://www.npmjs.com/package/@types/react): ^18
+- [@types/react-dom](https://www.npmjs.com/package/@types/react-dom): ^18
+- [autoprefixer](https://www.npmjs.com/package/autoprefixer): ^10.0.1
+- [eslint](https://www.npmjs.com/package/eslint): ^8
+- [eslint-config-next](https://www.npmjs.com/package/eslint-config-next): 14.0.3
+- [framer-motion](https://www.npmjs.com/package/framer-motion): ^10.16.5
+- [next](https://www.npmjs.com/package/next): 15.5.10
+- [postcss](https://www.npmjs.com/package/postcss): ^8
+- [react](https://www.npmjs.com/package/react): ^18
+- [react-dom](https://www.npmjs.com/package/react-dom): ^18
+- [react-intersection-observer](https://www.npmjs.com/package/react-intersection-observer): ^9.5.3
+- [tailwindcss](https://www.npmjs.com/package/tailwindcss): ^3.3.0
+- [typescript](https://www.npmjs.com/package/typescript): ^5
 
-- [React Intersection Observer](https://react-intersection-observer.vercel.app/ "React Intersection Observer")
-- [Prettier](https://prettier.io "Prettier")
-- [ESLint](https://eslint.org "ESLint")
 <!--- DEPENDENCIES_END --->
 
 ## :coffee: Buy Me a Coffee
