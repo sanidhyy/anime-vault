@@ -41,6 +41,8 @@
 
 Here is the folder structure of Anime Vault.
 
+<!--- FOLDER_STRUCTURE_START --->
+
 ```bash
 anime-vault/
   |- public/
@@ -58,6 +60,8 @@ anime-vault/
   |- tailwind.config.ts
   |- tsconfig.json
 ```
+
+<!--- FOLDER_STRUCTURE_END --->
 
 <br />
 
@@ -101,9 +105,12 @@ You might encounter some bugs while using this app. You are more than welcome to
 
 Useful resources and libraries that are used in Anime Vault
 
+<!--- DEPENDENCIES_START --->
+
 - [React Intersection Observer](https://react-intersection-observer.vercel.app/ "React Intersection Observer")
 - [Prettier](https://prettier.io "Prettier")
 - [ESLint](https://eslint.org "ESLint")
+<!--- DEPENDENCIES_END --->
 
 ## :coffee: Buy Me a Coffee
 
