@@ -101,7 +101,7 @@ anime-vault/
 
 ## :wrench: Stats
 
-[![Stats for this App](/.github/images/stats.svg "Stats for this App")](https://pagespeed-insights-svg.glitch.me/?url=https://animee-vault.vercel.app/ "Stats for this App")
+[![Stats for this App](/.github/images/stats.svg "Stats for this App")](https://pagespeed.web.dev/analysis?url=https://animee-vault.vercel.app/ "Stats for this App")
 
 ## :raised_hands: Contribute
 
