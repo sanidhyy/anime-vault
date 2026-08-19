@@ -119,7 +119,7 @@ Useful resources and libraries that are used in Anime Vault
 - [eslint](https://www.npmjs.com/package/eslint): ^8
 - [eslint-config-next](https://www.npmjs.com/package/eslint-config-next): 14.0.3
 - [framer-motion](https://www.npmjs.com/package/framer-motion): ^10.16.5
-- [next](https://www.npmjs.com/package/next): 15.5.18
+- [next](https://www.npmjs.com/package/next): 15.5.21
 - [postcss](https://www.npmjs.com/package/postcss): ^8
 - [react](https://www.npmjs.com/package/react): ^18
 - [react-dom](https://www.npmjs.com/package/react-dom): ^18
