@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   description: "Your favorite anime, all in one place.",
   authors: {
     name: "Sanidhya Kumar Verma",
-    url: "sanidhy.me",
+    url: "sanidhyy.name",
   },
   keywords: [
     "html",
