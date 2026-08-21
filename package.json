@@ -4,8 +4,8 @@
   "private": true,
   "author": {
     "name": "Sanidhya Kumar Verma",
-    "email": "sanidhya.verma12345@gmail.com",
-    "url": "https://sanidhy.me"
+    "email": "sanidhyyy@gmail.com",
+    "url": "https://sanidhyy.name"
   },
   "description": "Your favorite anime, all in one place.",
   "keywords": [
@@ -34,7 +34,7 @@
   "homepage": "https://github.com/sanidhyy/anime-vault#readme",
   "bugs": {
     "url": "https://github.com/sanidhyy/anime-vault/issues",
-    "email": "sanidhya.verma12345@gmail.com"
+    "email": "sanidhyyy@gmail.com"
   },
   "scripts": {
     "dev": "next dev",
