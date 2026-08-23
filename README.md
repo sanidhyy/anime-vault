@@ -87,6 +87,14 @@ anime-vault/
 - Shikimori API Documentation: https://shikimori.one/api/doc
 - Framer Motion Documentation: https://www.framer.com/motion/
 
+### :raising_hand: Need Help?
+
+If you run into issues during installation or setup:
+
+- **GitHub Discussions** — [Open a Q&A discussion](https://github.com/sanidhyy/anime-vault/discussions/new?category=q-a) for setup and troubleshooting help.
+- **Email** — [sanidhyyy@gmail.com](mailto:sanidhyyy@gmail.com)
+- **Discord** — `@sanidhyy`
+
 ## :camera: Screenshots:
 
 ![Modern Animations using Framer Motion](/.github/images/img1.png "Modern Animations using Framer Motion")
