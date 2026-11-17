@@ -46,13 +46,13 @@
     "framer-motion": "^10.16.5",
     "next": "16.3.4",
     "react": "^18",
-    "react-dom": "^18",
+    "react-dom": "^19",
     "react-intersection-observer": "^9.5.3"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
-    "@types/react-dom": "^18",
+    "@types/react-dom": "^19",
     "autoprefixer": "^10.0.1",
     "eslint": "^8",
     "eslint-config-next": "14.0.3",
