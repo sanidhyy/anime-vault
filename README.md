@@ -42,7 +42,6 @@
 Here is the folder structure of Anime Vault.
 
 <!--- FOLDER_STRUCTURE_START --->
-
 ```bash
 anime-vault/
   |- app/
@@ -62,13 +61,12 @@ anime-vault/
   |- .prettierignore
   |- netlify.toml
   |- next.config.js
-  |- package-lock.json
   |- package.json
+  |- pnpm-lock.yaml
   |- postcss.config.js
   |- tailwind.config.ts
   |- tsconfig.json
 ```
-
 <!--- FOLDER_STRUCTURE_END --->
 
 <br />
@@ -122,7 +120,6 @@ You might encounter some bugs while using this app. You are more than welcome to
 Useful resources and libraries that are used in Anime Vault
 
 <!--- DEPENDENCIES_START --->
-
 - [@types/node](https://www.npmjs.com/package/@types/node): ^26
 - [@types/react](https://www.npmjs.com/package/@types/react): ^19
 - [@types/react-dom](https://www.npmjs.com/package/@types/react-dom): ^19
