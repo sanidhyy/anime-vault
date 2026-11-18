@@ -126,7 +126,7 @@ Useful resources and libraries that are used in Anime Vault
 - [autoprefixer](https://www.npmjs.com/package/autoprefixer): ^10.6.2
 - [eslint](https://www.npmjs.com/package/eslint): ^8
 - [eslint-config-next](https://www.npmjs.com/package/eslint-config-next): 14.0.3
-- [framer-motion](https://www.npmjs.com/package/framer-motion): ^10.16.5
+- [framer-motion](https://www.npmjs.com/package/framer-motion): ^11.18.2
 - [next](https://www.npmjs.com/package/next): 16.3.4
 - [postcss](https://www.npmjs.com/package/postcss): ^8
 - [react](https://www.npmjs.com/package/react): ^19
