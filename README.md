@@ -121,15 +121,15 @@ Useful resources and libraries that are used in Anime Vault
 
 <!--- DEPENDENCIES_START --->
 - [@types/node](https://www.npmjs.com/package/@types/node): ^26
-- [@types/react](https://www.npmjs.com/package/@types/react): ^18
+- [@types/react](https://www.npmjs.com/package/@types/react): ^19
 - [@types/react-dom](https://www.npmjs.com/package/@types/react-dom): ^19
-- [autoprefixer](https://www.npmjs.com/package/autoprefixer): ^10.0.1
+- [autoprefixer](https://www.npmjs.com/package/autoprefixer): ^10.6.2
 - [eslint](https://www.npmjs.com/package/eslint): ^8
 - [eslint-config-next](https://www.npmjs.com/package/eslint-config-next): 14.0.3
 - [framer-motion](https://www.npmjs.com/package/framer-motion): ^10.16.5
 - [next](https://www.npmjs.com/package/next): 16.3.4
 - [postcss](https://www.npmjs.com/package/postcss): ^8
-- [react](https://www.npmjs.com/package/react): ^18
+- [react](https://www.npmjs.com/package/react): ^19
 - [react-dom](https://www.npmjs.com/package/react-dom): ^19
 - [react-intersection-observer](https://www.npmjs.com/package/react-intersection-observer): ^9.5.3
 - [tailwindcss](https://www.npmjs.com/package/tailwindcss): ^3.3.0
