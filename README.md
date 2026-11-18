@@ -120,7 +120,7 @@ You might encounter some bugs while using this app. You are more than welcome to
 Useful resources and libraries that are used in Anime Vault
 
 <!--- DEPENDENCIES_START --->
-- [@types/node](https://www.npmjs.com/package/@types/node): ^20
+- [@types/node](https://www.npmjs.com/package/@types/node): ^26
 - [@types/react](https://www.npmjs.com/package/@types/react): ^18
 - [@types/react-dom](https://www.npmjs.com/package/@types/react-dom): ^19
 - [autoprefixer](https://www.npmjs.com/package/autoprefixer): ^10.0.1
