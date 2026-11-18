@@ -42,6 +42,7 @@
 Here is the folder structure of Anime Vault.
 
 <!--- FOLDER_STRUCTURE_START --->
+
 ```bash
 anime-vault/
   |- app/
@@ -67,6 +68,7 @@ anime-vault/
   |- tailwind.config.ts
   |- tsconfig.json
 ```
+
 <!--- FOLDER_STRUCTURE_END --->
 
 <br />
@@ -77,9 +79,9 @@ anime-vault/
 
 2. Clone this repository to your local computer.
 
-3. Open terminal in root directory. Run `npm install` or `yarn install`.
+3. Open terminal in root directory. Run `npm install` or `pnpm install`.
 
-4. Now app is fully configured :+1: and you can start using this app using `npm run dev` or `yarn dev`.
+4. Now app is fully configured :+1: and you can start using this app using `npm run dev` or `pnpm dev`.
 
 ### :books: Additional Resources
 
@@ -120,6 +122,7 @@ You might encounter some bugs while using this app. You are more than welcome to
 Useful resources and libraries that are used in Anime Vault
 
 <!--- DEPENDENCIES_START --->
+
 - [@types/node](https://www.npmjs.com/package/@types/node): ^26
 - [@types/react](https://www.npmjs.com/package/@types/react): ^19
 - [@types/react-dom](https://www.npmjs.com/package/@types/react-dom): ^19
